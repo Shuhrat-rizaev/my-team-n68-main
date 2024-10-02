@@ -1,0 +1,13 @@
+.disktop {
+  background-color: #012f34;
+  h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+  &__item {
+    padding-top: 140px;
+  }
+  img {
+    padding-top: 64px;
+  }
+}

@@ -1,0 +1,41 @@
+.header {
+  margin-top: 73px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__nav {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+  }
+
+  &__list {
+    display: flex;
+    gap: 40px;
+  }
+
+  &__hamburger {
+    display: none;
+  }
+  //   &__img {
+  //     bottom: 0px;
+  //     right: 0px;
+  //   }
+}
+
+@media only screen and (max-width: 576px) {
+  .header {
+    &__list {
+      display: none;
+    }
+
+    &__btn {
+      display: none;
+    }
+    &__hamburger {
+      display: block;
+    }
+  }
+}
